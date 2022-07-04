@@ -5,6 +5,7 @@
  * Return: 0 after printing the function
  */
 int main(void)
-{puts("\"programing is like building a multilingual puzzle");
+{
+puts("\"programing is like building a multilingual puzzle");
 return (0);
 }
