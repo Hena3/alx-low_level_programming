@@ -7,6 +7,8 @@ void jack_bauer(void)
 int i, x;
 for (i = 0; i < 24; i++)
 {
+for (x = 0; x < 60; x++)
+{
 if (i < 10)
 {
 _putchar('0');
@@ -30,5 +32,6 @@ _putchar((x / 10) + '0');
 _putchar((x % 10) + '0');
 }
 _putchar('\n');
+}
 }
 }
