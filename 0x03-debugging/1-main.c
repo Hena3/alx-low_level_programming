@@ -1,21 +1,24 @@
-#ifndef MAIN_H
-
-#define MAIN_H
-
-
-
 #include <stdio.h>
 
+/**
+ * main - causes an infinite loop
+ * Return: 0
+ */
 
+int main(void)
+{
+int i;
 
-void positive_or_negative(int i);
+printf("Infinite loop incoming :(\n");
 
-int largest_number(int, int, int);
+i = 0;
+/**
+ * while (i < 10)
+ * {
+ *         putchar(i);
+ *}
+ */
+printf("Infinite loop avoided! \\o/\n");
 
-void print_remaining_days(int, int, int);
-
-int convert_day(int month, int day);
-
-
-
-#endif /* MAIN_H */
+return (0);
+}
