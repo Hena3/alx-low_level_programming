@@ -20,8 +20,7 @@ tmp++;
 }
 if (*tmp != '\0')
 {
-do
-{
+do {
 num = num * 10 + (*tmp - '0');
 tmp++;
 }
