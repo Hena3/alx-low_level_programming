@@ -12,7 +12,7 @@ char *tmp;
 tmp = s;
 num = 0;
 sign = 1;
-while (*tmp != '\0' && (*tmp < '0' || *tmp > 9))
+while (*tmp != '\0' && (*tmp < '0' || *tmp > '9'))
 {
 if (*tmp == '-')
 sign *= -1;
