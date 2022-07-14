@@ -1,6 +1,8 @@
 #include "main.h"
 /**
- *
+ * cap_string - capitalization function
+ * @x: string param
+ * Return: capitalized version pf the string
  */
 char *cap_string(char *)
 {
