@@ -30,4 +30,20 @@ i++;
 arg = malloc((sizeof(char) * size) +1);
 if (arg == NULL)
 return (NULL);
+i = 0;
+while (i < ac)
+{
+j = 0;
+while (av[i][j])
+{
+arg[k] = av[i][j];
+j++;
+k++;
+}
+arg[k] = '\n';
+k++;
+i++;
+}
+arg[k] = '\0';
+return (arg);
 }
